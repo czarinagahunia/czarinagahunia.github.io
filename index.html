@@ -1,1 +1,28 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 1</title>
+  </head>
+  <body>
+  <h1>Lab 1 - Login Page</h1>
+  <form action="#" method="post" id="loginform" name="login_form">
+    <fieldset>
+      <legend>User Authentication</legend>
+      <!-- USERNAME -->
+      <div><label for="user_Name">Username: </label>
+      <input type="text" id="user_Name" name="loginform__username" /></div>
+      
+      <!-- PASSWORD -->
+      <div><label for="user_Pass">Password: </label>
+      <input type="password" id="user_Pass" name="loginform__password" /></div>
+      
+      <!-- SUBMIT BTN -->
+      <div><input type="submit" value="Login" name="loginform__submit"></div>
+    </fieldset>
+  </form>
+  <div id="logindetails"></div>
+  
+  <script src="script.js"></script>
+  <script src="md5.js"></script>
+  </body>
+</html>
